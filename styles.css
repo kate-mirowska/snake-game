@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.game-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.options-wrapper {
+    margin: auto 100px;
+}
+
+.game-init-wrapper,
+.game-info-wrapper {
+    display: block;
+}
+
+#start-button,
+#pause-button,
+#restart-button {
+    cursor: pointer;
+}
+
+#start-button,
+#pause-button,
+#restart-button,
+.game-info-wrapper div {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    min-width: 55px;
+}
+
+#myCanvas {
+    background: #eee;
+    border: 1px solid black;
+}
